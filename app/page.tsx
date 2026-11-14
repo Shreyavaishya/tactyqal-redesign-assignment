@@ -97,7 +97,7 @@ export default async function Home() {
             </div>
 
             {/* Yellow Rotated Sticky Note (Top Left) */}
-            <div className="absolute left-4 top-28 sm:left-12 sm:top-32 z-30 w-44 -rotate-6 rounded-lg bg-note p-4 text-sm font-medium text-ink shadow-lg border border-yellow-200">
+            <div className="absolute left-4 top-28 sm:left-12 sm:top-32 z-30 w-44 -rotate-6 rounded-lg bg-note p-4 text-sm font-large text-ink shadow-lg border border-yellow-200 ">
                 What if I could make a real difference?
             </div>
 
