@@ -11,9 +11,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 bg-paper/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between border-b border-line px-5 py-5">
-        <Link href="/" className="font-display text-2xl font-bold tracking-tight">
-          tactyqal<span className="ml-1 align-top text-[10px] font-medium text-brand">LABS</span>
-        </Link>
+        <Link href="/" className="flex items-baseline gap-1.5 font-display text-2xl font-bold tracking-tighter">
+  tactyqal
+  <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-brand">Labs</span>
+</Link>
         <nav aria-label="Main" className="hidden items-center gap-8 text-sm md:flex">
           {links.map((l) => (
             <Link key={l.href} href={l.href} className="hover:text-brand">{l.label}</Link>
